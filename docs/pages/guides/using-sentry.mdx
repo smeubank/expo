@@ -16,8 +16,6 @@ import { Tab, Tabs } from '~/ui/components/Tabs';
 
 It notifies you of exceptions or errors that your users run into while using your app and organizes them for you on a web dashboard. Reported exceptions include stacktraces, device info, version, and other relevant context automatically. You can also provide additional context that is specific to your application such as the current route and user id.
 
-<PlatformsSection title="Platform compatibility" android emulator ios simulator web />
-
 ## What you'll learn
 
 This guide covers three main aspects of integrating Sentry with your Expo projects:
@@ -27,6 +25,8 @@ This guide covers three main aspects of integrating Sentry with your Expo projec
    - [EAS Build](#usage-with-eas-build) for building your app
    - [EAS Update](#usage-with-eas-update) for over-the-air updates
 3. [Setting up the Sentry-Expo integration](#sentry-integration-with-eas) to view crash reports and session replays directly in your Expo dashboard
+
+<PlatformsSection title="Platform compatibility" android emulator ios simulator web />
 
 ## Install and configure Sentry
 
@@ -77,11 +77,11 @@ The wizard will:
 - Set up the Metro configuration automatically
 - Add the necessary initialization code to your app
 
-Follow the prompts in the wizard to complete the setup process. The wizard will ask for your **organization slug**, **project name**, and **auth token** that you noted earlier.
+Follow the prompts in the wizard to complete the setup process. The wizard will guide you to log in to your Sentry account to get the correct organization and project details.
 
 </Step>
 
-<Step label="6">
+<Step label="3">
 
 ### Verify the configuration
 
